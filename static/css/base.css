@@ -1,0 +1,70 @@
+*{padding:0;margin:0;box-sizing:border-box}
+html,body{font-size:100px;background-color:#fff !important;color:#333}
+[v-cloak]{ display:none }
+.split{
+    height:0.1rem;
+    background-color:#F4F4F4;
+}
+.ell{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+input:focus{
+    border:none;
+    outline: 0;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.d-none{
+    display: none !important;
+}
+.a-under:hover{
+    text-decoration: underline;
+}
+img{
+    border: 0;
+    vertical-align: middle;
+}
+.clear-fix:after{
+    content:"";
+    display: block;
+    clear:both;
+}
+.clear-full::before{
+    content:"";
+    display: table;
+}
+audio, canvas, progress, video {
+    display: inline-block;
+    vertical-align: baseline;
+}
+.login-form,.regist-form{
+    padding:0 0.15rem; 
+}
+.input{
+    margin-top:0.05rem;
+}
+.input input{
+    border:none; 
+    background-color: #fff !important;
+    transition: 0.3s linear;
+}
+.input input:focus{
+    box-shadow: 0px 0px 10px 2px #ccc;
+}
+.fail input{
+    box-shadow: 0px 0px 10px 2px #DD524D;
+}
+.input .msg{
+    color:#DD524D;
+    height:0.26rem;
+    font-size: 0.12rem;
+}
+
+
